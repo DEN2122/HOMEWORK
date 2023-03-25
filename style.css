@@ -1,11 +1,75 @@
+
+.main-text {
+    font-size: 25px ;
+    color: white;
+    margin-left: auto ;
+    margin-right: auto ;
+    display: block ;
+    text-shadow: 5px 5px 7px black;
+}
 body {
-    background-color: rgb(237, 240, 221);
+    background: rgb(2,0,36);
+background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(19,17,32,1) 5%, rgba(121,65,9,1) 35%, rgba(255,192,0,1) 100%);
 }
-li {
-    border: 2px dashed aqua;
-    color:blue;
-    background-color: white;
+.main-text2 {
+    font-size: 25px ;
+    color: white;
+    margin-left: auto ;
+    margin-right: auto ;
+    display: block ;
+    text-shadow: 5px 5px 7px black;
 }
-p {
-    color :rgb(55, 58, 33)
+.main-text3 {
+    font-size: 25px ;
+    color: white;
+    margin-left: auto ;
+    margin-right: auto ;
+    display: block ;
+    text-shadow: 5px 5px 7px black;
+}
+.main-text4 {
+    font-size: 25px ;
+    color: white;
+    margin-left: auto ;
+    margin-right: auto ;
+    display: block ;
+    text-shadow: 5px 5px 7px black;
+}
+.main-zagolovok {
+    font-size: 25px ;
+}
+.main-pizza {
+    font-size: 25px ;
+}
+.main-zagolovok2 {
+    font-size: 25px ;
+}
+.main-culka {
+    font-size: 25px ;
+}
+.main-zagolovok3 {
+    font-size: 25px ;
+}
+.main-culka2 {
+    font-size: 25px ;
+}
+.main-photo {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main-photo2 {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main-photo3 {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main-photo4 {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
