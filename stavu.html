@@ -6,23 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./style.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
     <header>
-      <ul class="list">
+      <ul class="list" animate__pulse >
         <li>
-          <a href="./index.html">Golovna</a>
+          <a href="./index">Головна</a>
         </li>
         <li>
-          <a href="./stavu.html">Stavu</a>
+          <a href="./stavu.html" >Меню</a>
         </li>
       </ul>
     </header>
+    <ul class="slas" data-aos="flip-left">
     <table>
       <tr>
         <td>
           <div class="q">
-            <div class="dish-card">
+            <div  class="dish-card" data-aos="flip-left">
               <img src="g.jpg" alt="" />
               Моя найулюбленіша страва це - вареники
               <p class="main-text">
@@ -40,7 +46,7 @@
             </div>
         </td>
         <td>
-          <div class="dish-card">
+          <div  class="dish-card" data-aos="flip-left" >
             <img class="main-photo2" src="./smakota.jpg" alt="" />
             Це Піца
             <p class="main-text2">
@@ -60,7 +66,7 @@
       <tr>
         <td>
           <td>
-            <div class="dish-card">
+            <div  class="dish-card" data-aos="flip-left" >
               Макарони
               <img class="main-photo3" src="./chiken.jpg" alt="З курочкою" />
               <p class="main-text3">
@@ -77,7 +83,7 @@
           </td>
         </td>
         <td>
-          <div class="dish-card">
+          <div  class="dish-card" >
             Сирники
             <img class="main-photo4" src="./snidanok.jpg" alt="" />
             <p class="main-text4">
@@ -97,5 +103,10 @@
         </td>
       </tr>
     </table>  
+  </ul>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
